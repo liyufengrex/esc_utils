@@ -1,7 +1,7 @@
 name: esc_utils
-description: esc_utils
+description: 小票打印机 *ESC* 数据转换工具，主要用于将 image 图像转换成小票打印机可识别的字节数组
 version: 0.0.1
-homepage:
+homepage: https://github.com/liyufengrex/esc_utils
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
