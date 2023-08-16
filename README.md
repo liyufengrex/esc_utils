@@ -29,9 +29,7 @@ import 'package:image/image.dart' as img;
 
 // unit8List 转 esc 字节数组
 static Future<List<int>> decodeBytes(Uint8List imgData) async {
-final img.Image image = await cropImage(
-imgData,
-);
+final img.Image image = await decodeImage(imgData);
 Generator generator = Generator();
 List<int> bytes = [];
 // 打印机状态重置
